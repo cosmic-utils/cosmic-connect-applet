@@ -87,7 +87,7 @@ impl Application for CosmicConnect {
     fn view(&self) -> Element<Self::Message> {
         self.core
             .applet
-            .icon_button("display-symbolic")
+            .icon_button("smartphone-symbolic")
             .on_press(Message::TogglePopup)
             .into()
     }
